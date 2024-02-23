@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <!--AppShell.xaml 定义Shell. 支持 定义多个Shell ,并对其 进行设置-->   
+<Shell
+    x:Class="cn.DiariumSystem.SelfStart.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:cn.DiariumSystem.SelfStart"
+    Shell.FlyoutBehavior="Disabled"
+    Title="cn.DiariumSystem.SelfStart">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+</Shell>
